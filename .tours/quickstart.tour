@@ -1,0 +1,26 @@
+{
+  "title": "quickstart",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "# Azure Functions quickstart\n\nWelcome to Azure Functions! This tour will guide you to create your first HTTP triggered function and deploy it to Azure.\n\n[Let's get started!](command:codetour.navigateToStep?2)"
+    },
+    {
+      "title": "Create a local project and first function",
+      "description": "# Intialize a local project and create a function\n\nIn this step, you will create a local functions project and your first function.\n\nOpen the command palette and run the [*Azure Functions: Create new project...*](command:azureFunctions.createNewProject) command and provide the following values:\n\n| Prompt | Enter value |\n| --- | --- |\n| Folder that will contain your project | Choose the current folder |\n| Language | Python |\n| Python interpreter | Python 3.8 |\n| Template | Http trigger |\n| Function name | hello |\n| Function authentication | Anonymous |\n\nYour project and function will be created in a few seconds.\n\n"
+    },
+    {
+      "title": "Tour of the function app",
+      "description": "# Azure Functions app\n\nAn Azure Functions project (also called a function app) can contain one or more functions. It also contains some other files necessary for running the function app.\n\n* **host.json** - \n* **local.settings.json** - \n* **.venv** - \n* **hello** -\n    * **function.json** - \n    * **\\__init\\__.py** - \n\n    "
+    },
+    {
+      "title": "Run the function app locally",
+      "description": "# Run the function app\n\n"
+    },
+    {
+      "title": "Deploy the app to Azure",
+      "description": "# Deploy the function app to Azure\n"
+    }
+  ],
+  "isPrimary": true
+}
